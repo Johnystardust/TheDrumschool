@@ -17,6 +17,7 @@ get_template_part('header');
                 <img class="header-logo" src="<?php echo get_stylesheet_directory_uri().'/assets/images/LogoDrumschoolOriginalWhite.png'; ?>" alt=""/>
                 <h1>Drumlessen voor de beginner en gevorderde</h1>
             </div>
+
         </div>
     </div>
 </div>
