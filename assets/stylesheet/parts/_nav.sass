@@ -1,0 +1,55 @@
+#main-menu
+  position: fixed
+  width: 100%
+  z-index: 1000
+  padding: 0
+  top: 0
+  .top-bar
+    padding: 0 15px 0 0
+    height: 30px
+    background: $black
+    .search-bar
+      width: 200px
+      height: 100%
+      padding-top: 9px
+      padding-left: 15px
+      background: #262727
+      float: left
+      color: #ffffff
+      font-size: 10px
+    .contact-information
+      float: left
+      margin-top: 5px
+      padding-left: 15px
+      color: $text-grey
+    .social-links
+      margin-top: 5px
+      float: right
+      ul
+        list-style-type: none
+        li
+          padding: 0 10px
+          float: left
+          a
+            i
+              color: $text-grey
+              -webkit-transition: all 0.3s ease-in-out
+              -moz-transition: all 0.3s ease-in-out
+              -o-transition: all 0.3s ease-in-out
+              transition: all 0.3s ease-in-out
+          a:hover
+            i
+              color: $hover-color !important
+
+  .menu-bar
+    height: 70px
+    padding: 0 15px
+    background: $dark-grey
+    border-bottom: 1px solid $light-grey
+    ul
+      list-style-type: none
+      li
+        padding: 25px 15px
+        float: left
+        color: #ffffff
+        text-transform: uppercase

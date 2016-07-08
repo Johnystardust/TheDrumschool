@@ -1,0 +1,191 @@
+// Variables
+$black      : #000000
+$dark-grey  : #161616
+$light-grey : #333333
+$text-grey  : #838c8e
+$hover-color : #b22222
+
+*
+  margin: 0
+  padding: 0
+
+// Typography
+a
+  font-family: 'Open Sans', sans-serif
+  letter-spacing: 0.8px
+p
+  font-family: 'Open Sans', sans-serif
+  letter-spacing: 0.8px
+  line-height: 24px
+  margin: 0
+span
+  font-family: 'Open Sans', sans-serif
+  letter-spacing: 0.8px
+h1
+  font-family: 'Open Sans', sans-serif
+  margin: 0
+  font-size: 38px
+  letter-spacing: 0.8px
+h2
+  font-family: 'Open Sans', sans-serif
+  margin: 0
+  font-size: 32px
+  letter-spacing: 0.8px
+h3
+  font-family: 'Open Sans', sans-serif
+  margin: 0
+  font-size: 24px
+  letter-spacing: 0.8px
+h4
+  font-family: 'Open Sans', sans-serif
+  margin: 0
+  font-size: 16px
+  letter-spacing: 0.8px
+h5
+  font-family: 'Open Sans', sans-serif
+  margin: 0
+  font-size: 14px
+  letter-spacing: 0.8px
+
+// Miscellaneous
+ul
+  margin-bottom: 0
+
+.middle-wrap
+  display: table
+  width: 100%
+  height: 100%
+.middle
+  display: table-cell
+  vertical-align: middle
+
+.divider
+  display: block
+  position: relative
+  height: 1px
+  width: 70px
+  margin: 20px 0
+  background: $dark-grey
+
+.main-button
+  display: inline-block
+  padding: 15px 25px
+  margin-top: 20px
+  background: $dark-grey
+  color: #ffffff
+  border: none
+  letter-spacing: 0.8px
+  -webkit-transition: all 0.3s ease-in-out
+  -moz-transition: all 0.3s ease-in-out
+  -o-transition: all 0.3s ease-in-out
+  transition: all 0.3s ease-in-out
+.main-button:hover
+  background: $light-grey
+  text-decoration: none
+  color: #ffffff
+
+
+// Imports
+@import "parts/nav"
+@import "parts/footer"
+
+#header
+  position: relative
+  height: 500px
+  padding: 0
+  margin-top: 100px
+  overflow: hidden
+  background-size: cover
+  background-position: center top
+  .header-content
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    .header-logo
+      position: relative
+      max-width: 600px
+      top: -50px
+    h1
+      color: #ffffff
+      font-weight: 600
+      text-transform: uppercase
+      text-shadow: 1px 1px 1px #666
+
+
+#call-to-action
+  background: $dark-grey
+  height: 110px
+  .call-to-action-title
+    padding: 30px 0
+    float: left
+    color: #ffffff
+    h3
+      line-height: 50px
+  .call-to-action-form
+    padding: 30px 0
+    float: right
+    .input-field
+      padding: 15px
+      outline: none
+      border: none
+    .submit
+      padding: 15px 25px
+      border: none
+      background: #333333
+      color: #ffffff
+
+#content
+  padding: 50px 0
+  .content-image
+    display: block
+    width: 500px
+    margin: 0 auto
+
+#page-links
+  padding: 0
+  .col-md-4
+    padding: 0
+  .page-link
+    display: block
+    background: $dark-grey
+    padding: 30px 0
+    text-align: center
+    text-transform: uppercase
+    color: #ffffff
+    -webkit-transition: all 0.3s ease-in-out
+    -moz-transition: all 0.3s ease-in-out
+    -o-transition: all 0.3s ease-in-out
+    transition: all 0.3s ease-in-out
+    h5
+      margin-top: 10px
+  .page-link:hover
+    background: $light-grey
+    text-decoration: none
+    color: $hover-color
+
+
+
+#contact
+  .row
+    height: 100%
+  #form
+    .form-wrap
+      padding: 30px 15px
+      h3
+        margin-bottom: 30px
+      .form-control
+        border: 1px solid #000000
+        border-radius: 0
+      .main-button
+        margin-top: 0
+  #maps
+    background: $dark-grey
+    padding: 0
+    height: 100%
+    #map-canvas
+      height: 100%
+
+
+
